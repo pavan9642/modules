@@ -38,7 +38,7 @@ resource "aws_subnet" "app_public_subnet" {
   }
 }
 
-### Security Group Setup
+### Security Group Setups
 
 # ALB Security group
 resource "aws_security_group" "lb" {
