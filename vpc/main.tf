@@ -1,3 +1,6 @@
+provider "aws" {
+  region = "us-east-1"
+}
 resource "aws_vpc" "custom_vpc" {
   cidr_block       = var.vpc_cidr_block
   enable_dns_support = true
